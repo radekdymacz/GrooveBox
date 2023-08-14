@@ -34,6 +34,8 @@ void setup() {
   sequencer.addEvent(60);
   sequencer.addEvent(-1);  // Rest
   sequencer.addEvent(290);
+  sequencer.addEvent(90);
+  sequencer.addEvent(490);
   sequencer.setNoteDuration(4); 
 
   // Set up the sampler
